@@ -38,7 +38,7 @@ WHISPER_MODEL_OPTIONS = [
     "large-v2",
     "large-v3",
     "large-v3-turbo",
-    "deepdml/faster-whisper-large-v3-turbo-ct2",
+    "mobiuslabsgmbh/faster-whisper-large-v3-turbo",
     "distil-whisper/distil-large-v2",
 ]
 
