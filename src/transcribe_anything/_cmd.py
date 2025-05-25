@@ -37,7 +37,7 @@ WHISPER_MODEL_OPTIONS = [
     "large",
     "large-v2",
     "large-v3",
-    "large-v3",
+    "large-v3-turbo",
     "distil-whisper/distil-large-v2",
 ]
 
