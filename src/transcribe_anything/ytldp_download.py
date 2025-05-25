@@ -15,7 +15,7 @@ def ytdlp_download(url: str, outdir: str) -> str:
     for file in os.listdir(outdir):
         os.remove(os.path.join(outdir, file))
     # cmd = f'yt-dlp --no-check-certificate {url} -o "out.%(ext)s"'
-    cmd = f'yt-dlp -x f "bestaudio" --audio-quality 0 --no-check-certificate {url} -o "out.%(ext)s"'
+    cmd = f'yt-dlp -x --audio-quality 0 --no-check-certificate {url} -o "out.%(ext)s"'
     
     print(f"Running:\n  {cmd}")
     subprocess.run(
